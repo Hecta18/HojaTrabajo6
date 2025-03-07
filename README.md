@@ -154,3 +154,8 @@ Si usas `HashMap<String, Pokemon>` y luego conviertes a `List` para ordenarlo ma
 🔹 **Complejidad total: O(N log N)** (por el ordenamiento con `sort()`).
 
 Ambos enfoques tienen la **misma complejidad asintótica**, pero `TreeMap` es más eficiente si necesitas acceder frecuentemente a los datos ordenados.
+
+## Referencias:
+Java Platform, Standard Edition Documentation - Releases. (2024, 16 septiembre). Oracle Help Center. https://docs.oracle.com/en/java/javase/
+
+ChatGPT. (2025). Respuesta generada por un modelo de inteligencia artificial de OpenAI sobre Java Collection Framework y complejidad algorítmica. OpenAI.
