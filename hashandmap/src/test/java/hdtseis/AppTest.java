@@ -1,4 +1,4 @@
-package hdt6;
+package hdtseis;
 
 import static org.junit.Assert.assertTrue;
 
