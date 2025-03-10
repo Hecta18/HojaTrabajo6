@@ -1,13 +1,11 @@
 package hdtseis;
 
-/**
- * Hello world!
- *
- */
+import java.io.*;
 public class App 
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        BufferedReader br = new BufferedReader(new FileReader("../../../../../pokemones.csv"));
+        String[] pokemones = br.split(",");
     }
 }
