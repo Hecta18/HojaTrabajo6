@@ -159,3 +159,5 @@ Ambos enfoques tienen la **misma complejidad asintótica**, pero `TreeMap` es m�
 Java Platform, Standard Edition Documentation - Releases. (2024, 16 septiembre). Oracle Help Center. https://docs.oracle.com/en/java/javase/
 
 ChatGPT. (2025). Respuesta generada por un modelo de inteligencia artificial de OpenAI sobre Java Collection Framework y complejidad algorítmica. OpenAI.
+
+Pokemon dataset. (2025, 7 marzo). Kaggle. https://www.kaggle.com/datasets/mohitbansal31s/pokemon-dataset/data
