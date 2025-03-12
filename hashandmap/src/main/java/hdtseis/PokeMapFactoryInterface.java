@@ -1,7 +1,7 @@
 package hdtseis;
 
 public interface PokeMapFactoryInterface<E> {
-    public PokeMap createPokeMap()<E>;
+    PokeMap<E> createPokeMap();
 }
 
 //Definicion Factory segun Copilot
