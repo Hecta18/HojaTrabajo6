@@ -5,15 +5,15 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.TreeMap;
 
-public class PokeMap<E> implements setMapInterface<E> {
+public class PokeMap<E> implements PokeMapInterface<E> {
     private static final String TYPE_STRING_ERROR = "Invalid map type provided.";
     private Map<E, E> map;
 
-    public setMap(Map<E, E> map) {
+    public void setMap(Map<E, E> map) {
         this.map = map;
     }
    
-    public setMapType(String mapType) {
+    public void setMapType(String mapType) {
         switch (mapType) {
             case "HashMap":
                 map = new HashMap<>();
