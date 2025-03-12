@@ -1,13 +1,12 @@
 package hdtseis;
 
-public interface PokeMapFactory<E> {
-    public PokeMap createPokeMap()<E>;
-}
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.TreeMap;
 
-//Definicion Factory segun Copilot
-// The Factory Design Pattern is a creational pattern 
-// that provides an interface for creating objects in 
-// a superclass, but allows subclasses to alter the type 
-// of objects that will be created. It is used to *encapsulate 
-// the instantiation logic* and can help in managing 
-// and maintaining the creation process.
+public class PokeMapFactory<E> implements PokeMapFactoryInterface<E> {
+    @Override
+    public PokeMap createPokeMap() {
+        return new PokeMap<E>();
+    }
+}
